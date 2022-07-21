@@ -13,10 +13,10 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 @Model(adaptables = SlingHttpServletRequest.class,
         adapters = {ComponentExporter.class},
-        resourceType = ReactTextFooterModel.RESOURCE_TYPE)
+        resourceType = ReactFooterModel.RESOURCE_TYPE)
 @Exporter(name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, extensions = ExporterConstants.SLING_MODEL_EXTENSION)
-public class ReactTextFooterModel implements ComponentExporter {
-    protected static final String RESOURCE_TYPE = "page404/components/react-text-footer";
+public class ReactFooterModel implements ComponentExporter {
+    protected static final String RESOURCE_TYPE = "page404/components/react-footer";
 
     @ValueMapValue(injectionStrategy=InjectionStrategy.OPTIONAL)
     protected String text;

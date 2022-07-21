@@ -6,7 +6,7 @@ import "./ExperienceFragment/ExperienceFragment";
 import "./ButtonComponent";
 import "./TittleComponent";
 import "./TextComponent";
-import "./TextFooterComponent";
+import "./FooterComponent";
 
 import { MapTo } from "@adobe/aem-react-editable-components";
 
