@@ -1,6 +1,6 @@
 import { MapTo } from "@adobe/aem-react-editable-components";
 import React from "react";
-import { divButton } from "./style";
+import { ButtonDiv } from "./style";
 
 const ButtonEditConfig = {
   emptyLabel: "Button text",
@@ -11,9 +11,9 @@ const ButtonEditConfig = {
 
 const Button = (props) => {
   return (
-    <divButton>
+    <ButtonDiv>
       <button>{props.text}</button>
-    </divButton>
+    </ButtonDiv>
   );
 };
 

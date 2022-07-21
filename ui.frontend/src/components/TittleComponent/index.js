@@ -1,5 +1,6 @@
 import { MapTo } from "@adobe/aem-react-editable-components";
 import React from "react";
+import { Paragraph } from "./style";
 
 const TittleEditConfig = {
   emptyLabel: "Insert Text",
@@ -10,9 +11,9 @@ const TittleEditConfig = {
 
 const Tittle = (props) => {
   return (
-    <div>
+    <Paragraph>
       <h1>{props.text}</h1>
-    </div>
+    </Paragraph>
   );
 };
 
